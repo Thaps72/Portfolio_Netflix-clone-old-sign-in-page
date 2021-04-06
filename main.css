@@ -1,0 +1,323 @@
+/*index page sart style*/
+body {
+    font-family:
+        sans-serif;
+    font-family: 'Roboto',
+        sans-serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+   /*overflow: hidden;*/
+}
+
+
+.big-image {
+    background-image: url("Assets/netflix-bg.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.big {
+    font-size: 90px;
+    text-shadow: 2px 2px #666;
+    margin: 0;
+    color: #fff;
+}
+
+
+
+.overlay,
+.cancel,
+.devices {
+    font-size: 20px;
+    margin-top: 0%;
+}
+
+
+.btn {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 120px;
+
+}
+
+/*
+.logo img {
+    float: right;
+    height: 40px;
+    right: 95%;
+    font-size: 80px;
+    top: 5%;
+    position: absolute;
+}
+*/
+
+.sign {
+    float: right;
+    top: 2%;
+    left: 95%;
+    height: 30px;
+    border-radius: 4px;
+    background-color: red;
+    color: #fff;
+    position: absolute;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px;
+}
+
+
+nav{
+    display: inline;
+}
+nav ul{
+    text-decoration: none;
+}
+
+nav li .btn-one{
+float:right
+
+}
+
+
+
+
+
+.btn1 {
+    float: right;
+}
+
+.overlay , .right {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 7;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0%;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    margin: 0%;
+}
+
+footer,
+h2,
+h1 {
+    font-size: 20px;
+
+}
+
+
+.social-media,
+a {
+    color: red;
+    padding: 0 2px;
+}
+
+
+.fas {
+    color: red;
+    cursor: pointer;
+}
+
+.left-col,
+.middle-col,
+.right-col {
+    padding: 7px 7px;
+}
+
+
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+
+    background-color: red;
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 20px;
+}
+
+/*signin form*/
+
+.wrapper {
+    background-color: #000;
+}
+
+.wrapper img {
+    width: 10%;
+    float: left;
+    padding-left: 30px;
+}
+
+h3 {
+    font-size: 60px;
+    text-align: center;
+    padding-top: 250px;
+    color: #000;
+}
+
+.middle-2 {
+    position: relative;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    top: 50%;
+}
+
+
+
+.btn_1 {
+    display: inline-block;
+    text-decoration: none;
+    padding-bottom: 10px;
+    transform: 90px;
+
+
+}
+
+button {
+    transform: translateY(-50%);
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: red;
+    color: #fff;
+
+}
+
+
+
+/*
+.btn_2 {
+    display: inline-block;
+    text-decoration: none;
+    padding-bottom: 10px;
+    transform: translateY(-50%);
+    width: 100%;
+    /*
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:320px) {
+
+    /* For mobile phones: */
+
+
+
+.left-col,
+.middle-col,
+.right-col {
+    width: 100%;
+    flex-direction: column;
+    display: block;
+}
+
+.right-col {
+    display: none;
+
+}
+
+.logo img {
+    display: none;
+}
+
+.sign {
+    display: none;
+}
+
+.big,
+.cancel,
+.devices {
+    padding-left: 10px;
+}
+
+
+@media screen and (max-width:400px) {
+
+    /* For mobile phones: */
+
+    .left-col,
+    .middle-col,
+    .right-col {
+        width: 100%;
+        flex-direction: column;
+        display: block;
+    }
+
+    .right-col {
+        display: none;
+
+    }
+
+    .logo img {
+        display: none;
+    }
+
+    .sign {
+        display: none;
+    }
+
+    .big,
+    .cancel .devices {
+        padding-left: 10px;
+    }
